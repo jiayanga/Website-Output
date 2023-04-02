@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #e9e29b;
+    color: #293143;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    position: sticky;
+    
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+      
+  }
+  nav a:hover {
+    background-color: #444;
+  }
+
+
+
+  #home{
+    display: flex;
+    flex-direction: column;
+    background-color: #eee9df;
+    height: 740px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  
+
+  #banner {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #banner  img{
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+
+  .text{
+    position: absolute;
+    font-size: 60px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 20%;
+
+  }
+
+ .image2{
+  position: absolute;
+  top: 50px;
+  left: 575px;
+  justify-content: center;
+  object-position:center ;
+ 
+ }
+  
+
+  #main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     background-color: #e2d1ae;
+    
+  }
+  
+  article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  article h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+
+    #sidebar {
+    padding: 10px;
+    background-color: #eee9df;
+    border: 1px solid #ccc;
+    flex-basis: 20%;
+  }
+  
+  
+
+  footer {
+    background-color: #e9e29b;
+    color: #293143;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+
+
+  #about{
+    background-color: #e9e29b;
+  }
+
+  .home-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+  }
+
+  #contact{
+    background-color: #e2d1ae;
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex-basis: 20%;
+  }
+  
+  .map-container {
+    position: relative;
+    width: 50%;
+    padding-bottom: 50%;
+  }
+  .map-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+  
+  }
